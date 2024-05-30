@@ -1,11 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>lotusbungalow.com</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <img src="icons/Logo sans fond.png" alt="Logo" />
+        <a class="navbar-brand" href="#">lotusbungalow</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul
+            class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+            style="--bs-scroll-height: 100px"
+          >
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-5"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div
+      id="hotelCarousel"
+      class="carousel slide"
+      data-bs-ride="carousel"
+      data-bs-interval="2500"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="image/308730508_596184905544179_4682401747476039275_n.jpg"
+            class="d-block w-100"
+            alt="Welcome to LOTUS"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Welcome to Lotus Bungalow</h5>
+            <p>Experience luxury and comfort.</p>
+            <a href="#" class="btn btn-primary btn-lg">Login</a>
+            <a href="#" class="btn btn-secondary btn-lg">Réserver</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="image/320382553_1296676654209731_934493475160465105_n.jpg"
+            class="d-block w-100"
+            alt="Second Image"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Welcome to Lotus Bungalow</h5>
+            <p>Experience luxury and comfort.</p>
+            <a href="#" class="btn btn-primary btn-lg">Login</a>
+            <a href="#" class="btn btn-secondary btn-lg">Réserver</a>
+          </div>
+        </div>
+       
+        </div>
+      </div>
+    </div>
+  
+      </div>
+    </div>
+  </body>
 </html>
